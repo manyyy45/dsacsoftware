@@ -1,0 +1,131 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+dsac
+</name>
+</assembly>
+<members>
+<member name="T:dsac.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:dsac.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:dsac.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="T:dsac.dsacdataDataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:dsac.dsacdataDataSet.GentsGymDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:dsac.dsacdataDataSet.LadiesGymDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:dsac.dsacdataDataSet.SwimmingDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:dsac.dsacdataDataSet.GentsGymRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:dsac.dsacdataDataSet.LadiesGymRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:dsac.dsacdataDataSet.SwimmingRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:dsac.dsacdataDataSet.GentsGymRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:dsac.dsacdataDataSet.LadiesGymRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:dsac.dsacdataDataSet.SwimmingRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:dsac.dsacdataDataSetTableAdapters.GentsGymTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:dsac.dsacdataDataSetTableAdapters.LadiesGymTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:dsac.dsacdataDataSetTableAdapters.SwimmingTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:dsac.dsacdataDataSetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:dsac.dsacdataDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(dsac.dsacdataDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:dsac.dsacdataDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(dsac.dsacdataDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:dsac.dsacdataDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(dsac.dsacdataDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:dsac.dsacdataDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:dsac.dsacdataDataSetTableAdapters.TableAdapterManager.UpdateAll(dsac.dsacdataDataSet)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:dsac.dsacdataDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:dsac.dsacdataDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+</members>
+</doc>
